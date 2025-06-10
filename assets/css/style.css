@@ -168,7 +168,7 @@ p {
   text-align: left;
 }
 
-/* C-SUB */
+
 .c-sub {
   display: flex;
   margin: 8px auto 35px;
@@ -206,7 +206,50 @@ p {
   text-align: right;
 }
 
-/* SPECIFIED */
+/* BIG SECTION */
+
+.big {
+
+  background-image: url(../img/wave.svg);
+  background-size: 100vw 10vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.img {
+
+  width: 80%;
+  align-self: center;
+}
+
+.h2-stars {
+  text-align: center;
+  height: 75px;
+  width: 50%;
+  padding: 10px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+
+
+
+}
+
+
+
+
+
+
+/* SPECIFIED CELLS*/
 
 
 
@@ -294,8 +337,8 @@ p {
   height: 600px;
 }
 
-.height-800 {
-  height: 800px;
+.height-12k {
+  height: 1200px;
 }
 
 .height-90 {
