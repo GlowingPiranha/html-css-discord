@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.bs-dash {
+  border: 2px dashed;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.c-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.jumbo {
+  background-image: url(/assets/img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.lone {
+  margin: 50px auto;
+  width: 800px;
+
+
+}
+
+.c-main {
+  display: flex;
+  margin: 50px auto;
+}
+
+.c-sub {
+  display: flex;
+  margin: 8px auto 35px;
+}
+
+
+.cella {
+  width: 100%;
+  padding: 10px;
+  color: white;
+
+}
+
+.cella-no-p {
+  width: 100%;
+}
+
+.a-left {
+  text-align: left;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.a-right {
+  text-align: right;
+}
+
+/* SPECIFIED */
+
+
+
+.cella-no-p.bs-dash.bg-aqua.width-70 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  width: 100%;
+  border: 0.15rem dashed white;
+}
+
+.container.bg-ash.height-90 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+.c-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+
+}
+
+.f-div {
+  padding: 5px;
+
+}
+
+.f-div {
+  padding: 5px;
+}
+
+/* WIDTHS */
+
+.width-64 {
+  width: 64%;
+}
+
+.width-18 {
+  width: 18%;
+}
+
+.width-1k {
+  width: 1000px;
+}
+
+.width-12k {
+  width: 1200px;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+
+
+/* HEIGTHS */
+.height-75 {
+  height: 75px;
+}
+
+.height-400 {
+  height: 500px;
+}
+
+.height-800 {
+  height: 800px;
+}
+
+.height-90 {
+  height: 90px;
+}
+
+
+
+
+/* COLORS */
+.bg-lightblue {
+  background-color: #3160e0;
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.bg-ocra {
+  background-color: #e2c239;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-plum {
+  background-color: plum;
+}
+
+.bg-cyan {
+  background-color: rgb(22, 107, 235);
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-ash {
+  background-color: #222831;
+}
+
+.bg-pink-b {
+  background-color: #f76b8a;
+}
+
+.bg-aqua {
+  background-color: #00aaa0;
+}
+
+.bg-aquamarine {
+  background-color: aquamarine;
+}
