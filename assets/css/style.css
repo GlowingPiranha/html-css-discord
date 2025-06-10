@@ -170,12 +170,6 @@ p {
 }
 
 
-.c-sub {
-  display: flex;
-  justify-content: center;
-  margin: 8px auto 35px;
-}
-
 
 .cella {
   width: 100%;
@@ -271,19 +265,28 @@ footer div div div div h2 {
   margin: 20px auto;
 }
 
-.ita {
 
-  width: 26px;
+.c-sub {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
 }
 
+
 .f-ita {
+  margin-top: 40px;
   color: white;
   display: flex;
   vertical-align: middle;
 }
 
-.logos {
+.ita {
 
+  width: 26px;
+}
+
+.logos {
+  margin-top: 20px;
   color: white;
   font-size: 26px;
   width: 45%;
@@ -319,12 +322,19 @@ footer div div div div h2 {
 
 /* C-FOOT */
 
+.container.bg-ash {
+  height: auto;
+}
+
 .c-foot {
+  border-top: 2px solid #8da2e4;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
+  padding: 50px;
 
 }
 
