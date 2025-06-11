@@ -76,6 +76,7 @@ header ul li {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 150px;
 
 }
 
@@ -178,7 +179,7 @@ p {
 }
 
 .cella-btn {
-  width: 6%;
+  width: 40%;
   border-radius: 18px;
   padding: 8px;
   background-color: white;
@@ -274,7 +275,7 @@ footer div div div div h2 {
 
 
 .f-ita {
-  margin-top: 40px;
+  margin-top: 20px;
   color: white;
   display: flex;
   vertical-align: middle;
@@ -286,7 +287,7 @@ footer div div div div h2 {
 }
 
 .logos {
-  margin-top: 20px;
+  margin-top: 80px;
   color: white;
   font-size: 26px;
   width: 45%;
@@ -296,6 +297,7 @@ footer div div div div h2 {
 }
 
 .column {
+  margin-top: 30px;
   line-height: 30px;
   text-align: left;
   font-weight: 600;
@@ -342,7 +344,7 @@ footer div div div div h2 {
   font-size: 20px;
   color: white;
   background-color: #8da2e4;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 13px;
 
 }
